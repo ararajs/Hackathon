@@ -1,16 +1,3 @@
-# [1,2,6,3,17,82,23,234] -> 26
-#           Solution [3,6]
- 
-#           [1,2,6,3,17,82,23,234] -> 40
-#           Solution [4,6]
- 
-#           [1,2,6,3,17,82,23,234] -> 23
-#           Solution [6]
- 
-import timeit
-arr = [1,2,6,3,17,82,23,234]
-
-
 def sum_or_not(arr,x):
     def identifier(arr,x,outp = [],index = 0, sub_arr = []):
         if index == len(arr):
@@ -33,5 +20,3 @@ def sum_or_not(arr,x):
                 indices.append(ind)
                 break
     return indices
-    
-print(sum_or_not(arr,260))
