@@ -19,4 +19,7 @@ def sum_or_not(arr,x):
             if (arr_val == values) and (ind not in indices):
                 indices.append(ind)
                 break
+                
+                
     return indices
+    print(siao)
